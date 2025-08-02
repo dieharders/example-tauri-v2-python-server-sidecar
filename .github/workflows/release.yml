@@ -17,6 +17,10 @@ on:
         description: "Release notes"
         required: false
 
+permissions:
+  actions: write
+  contents: read
+
 jobs:
   # Tauri example workflow - https://v2.tauri.app/distribute/pipelines/github/
   create_release:
